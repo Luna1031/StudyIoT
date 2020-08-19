@@ -1,0 +1,12 @@
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\obj\Debug\BogusTestApp.csprojAssemblyReference.cache
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\obj\Debug\BogusTestApp.csproj.CoreCompileInputs.cache
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\BogusTestApp.exe.config
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\BogusTestApp.exe
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\BogusTestApp.pdb
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\Bogus.dll
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\Newtonsoft.Json.dll
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\Bogus.xml
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\bin\Debug\Newtonsoft.Json.xml
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\obj\Debug\BogusTestApp.csproj.CopyComplete
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\obj\Debug\BogusTestApp.exe
+D:\PKNU2020\StudyIoT\DummyDataGen\BogusTestApp\obj\Debug\BogusTestApp.pdb
