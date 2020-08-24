@@ -30,7 +30,7 @@ namespace BogusMqttWinPublishApp
 
             InitializeAll();    // 전체 초기화
             ConnectMqttBroker();    // MQTT 브로커 접속
-            StartPublish();     // fake 센싱 메시지 전송
+            // StartPublish();     // fake 센싱 메시지 전송
         }
 
         private void ConnectMqttBroker()
@@ -76,7 +76,7 @@ namespace BogusMqttWinPublishApp
             {
                 SensorInfo value = SensorFaker.Generate();
                 CurrValue = JsonConvert.SerializeObject(value, Formatting.Indented);
-                BrokerClient.Publish("home/device/data", Encoding.Default.GetBytes(CurrValue));
+                BrokerClient.Publish("home/device/data/", Encoding.Default.GetBytes(CurrValue));
                 // Console.WriteLine($"Published : {CurrValue}");
                 this.Invoke(new Action(() =>
                 {
@@ -88,6 +88,9 @@ namespace BogusMqttWinPublishApp
             }
         }
 
-
+        private void BtnConnect_Click(object sender, EventArgs e)
+        {
+            StartPublish();
+        }
     }
 }

@@ -83,6 +83,7 @@
             this.BtnConnect.TabIndex = 5;
             this.BtnConnect.Text = "Connect";
             this.BtnConnect.UseSelectable = true;
+            this.BtnConnect.Click += new System.EventHandler(this.BtnConnect_Click);
             // 
             // RtbLog
             // 
